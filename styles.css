@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    height: 500vh;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+header.rolagem{
+    background-color: rgb(19, 157, 19);
+    padding: 20px 4%;
+}
+header.rolagem a,header.rolagem #cabecalho{
+    color: rgb(238, 241, 237);
+}
+#cabecalho{
+    font-size: 15px;
+}
+header ul{
+    list-style: none ;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+    color: black;
+}
+header ul li a{
+
+    text-decoration: none;
+}
+.contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+.banner{
+    height: 100vh;
+    background-color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1 span{
+    color: green;
+
+}
+
+.banner h1{
+    font-size: 2em;
+}
